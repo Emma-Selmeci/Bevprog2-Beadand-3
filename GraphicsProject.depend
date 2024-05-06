@@ -1,0 +1,128 @@
+# depslib dependency file v1.0
+1710748285 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\graphicslib64_0412\main.cpp
+	"graphics.hpp"
+	<iostream>
+	<math.h>
+	<fstream>
+	<vector>
+
+1618175170 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\graphicslib64_0412\include\graphics.hpp
+	<string>
+	<vector>
+
+1711283723 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\követnek a pöttyök\main.cpp
+	"graphics.hpp"
+	<iostream>
+	<math.h>
+	<fstream>
+	<vector>
+
+1618175170 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\követnek a pöttyök\include\graphics.hpp
+	<string>
+	<vector>
+
+1711282527 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\követnek a pöttyök\untitled1.cpp
+	"graphics.hpp"
+	<iostream>
+	<math.h>
+	<fstream>
+	<vector>
+
+1711379303 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\post-it cetlik\main.cpp
+	"graphics.hpp"
+	<iostream>
+	<math.h>
+	<fstream>
+	<vector>
+
+1618175170 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\post-it cetlik\include\graphics.hpp
+	<string>
+	<vector>
+
+1713169199 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\post-it cetlik 2\main.cpp
+	"graphics.hpp"
+	<iostream>
+	<math.h>
+	<fstream>
+	<vector>
+
+1618178770 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\post-it cetlik 2\include\graphics.hpp
+	<string>
+	<vector>
+
+1713190764 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\fordegys2\komplex.cpp
+	"komplex.hpp"
+
+1713189472 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\fordegys2\main.cpp
+	"graphics.hpp"
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<vector>
+	<cmath>
+	"komplex.hpp"
+
+1618178770 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\fordegys2\include\graphics.hpp
+	<string>
+	<vector>
+
+1713189539 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\fordegys2\komplex.hpp
+
+1714398470 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2\main.cpp
+	<iostream>
+	<vector>
+	"scene.hpp"
+	"slider.hpp"
+	"selector.hpp"
+	"label.hpp"
+
+1714398589 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2\scene.hpp
+	<vector>
+	"widget.hpp"
+	"graphics.hpp"
+
+1714329276 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2\scene.cpp
+	<fstream>
+	<iostream>
+	"scene.hpp"
+
+1618178770 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2\include\graphics.hpp
+	<string>
+	<vector>
+
+1713796580 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2\widget.hpp
+	<iostream>
+	"graphics.hpp"
+
+1713725897 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2\widget.cpp
+	"widget.hpp"
+
+1714330170 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2\slider.hpp
+	<iostream>
+	"widget.hpp"
+
+1714330244 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2\slider.cpp
+	<cmath>
+	"graphics.hpp"
+	"slider.hpp"
+
+1714393457 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2\selector.cpp
+	"graphics.hpp"
+	"selector.hpp"
+
+1714393467 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2\selector.hpp
+	<vector>
+	"widget.hpp"
+
+1714398209 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2\label.cpp
+	"label.hpp"
+	"graphics.hpp"
+
+1714396631 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2\label.hpp
+	"widget.hpp"
+
+1714999644 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\main.cpp
+	"drawable.hpp"
+
+1714999751 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\drawable.hpp
+

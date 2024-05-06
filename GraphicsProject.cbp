@@ -51,6 +51,7 @@
 			<Add library="dxguid" />
 			<Add directory="lib" />
 		</Linker>
+		<Unit filename="graphicsObject.hpp" />
 		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>

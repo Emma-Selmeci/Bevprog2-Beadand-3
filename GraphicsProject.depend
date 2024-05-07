@@ -121,14 +121,46 @@
 1714396631 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2\label.hpp
 	"widget.hpp"
 
-1715002558 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\main.cpp
+1715113506 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\main.cpp
+	<iostream>
+	"helpers.hpp"
+	"frame.hpp"
 
 1714999751 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\drawable.hpp
 
-1715001404 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\graphicsobject.hpp
+1715113984 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\graphicsobject.hpp
 	"graphics.hpp"
+	"helpers.hpp"
+	"objectHolder.hpp"
 
 1618178770 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\include\graphics.hpp
 	<string>
 	<vector>
+
+1715114913 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\helpers.hpp
+
+1715114002 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\frame.cpp
+	"frame.hpp"
+	"graphics.hpp"
+
+1715114002 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\frame.hpp
+	"graphicsObject.hpp"
+
+1715113984 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\objectholder.hpp
+	<vector>
+	"graphics.hpp"
+	"helpers.hpp"
+
+1715065726 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\graphicsobject.cpp
+	"graphicsObject.hpp"
+
+1715113211 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\objectholder.cpp
+	"objectHolder.hpp"
+	"graphicsObject.hpp"
+
+1715114757 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\testlabel.cpp
+	"testLabel.hpp"
+
+1715114929 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\testlabel.hpp
+	"graphicsObject.hpp"
 

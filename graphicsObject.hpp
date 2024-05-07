@@ -9,12 +9,17 @@
 using namespace genv;
 
 class GraphicsObject {
-private:
+protected:
+    Layer layer;
+    Point pos; //These 2 members are not const, I might change them for some graphical effect
 public:
-    GraphicsObject(Point pos, ObjectHolder, Layer);
-    virtual bool check(event) = 0;
-    virtual bool update(event) = 0;
+    GraphicsObject(Layer, Point pos, ObjectHolder*);
+    virtual bool check(event&) = 0;
+    virtual bool update(event&) = 0;
     virtual void draw() const = 0;
+    virtual void drop() = 0;
+
+    friend ObjectHolder; //Using friend class for the first time. Getters might've been a better idea but I want to try this feature I've been missing from Java
 };
 
 #endif // GRAPHICSOBJECT

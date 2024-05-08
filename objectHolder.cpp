@@ -1,12 +1,19 @@
+#include <iostream>
+
 #include "objectHolder.hpp"
 
-#include "graphicsObject.hpp""
+#include "graphicsObject.hpp"
 
-Point ObjectHolder::addObject(GraphicsObject* newGraphicsObject) {
+Rect& ObjectHolder::addObject(GraphicsObject* newGraphicsObject) {
+
+    std::cout << "Adress of TestLabel in addObject() " << newGraphicsObject << "\n";
+    std::cout << "Passed dim adress and its values in addObject() " << &newGraphicsObject->dim << " " << newGraphicsObject->dim.p1.x << " "  << newGraphicsObject->dim.p2.x << "\n";
 
     layeredObjects[newGraphicsObject->layer].push_back(newGraphicsObject);
 
-    return getCoordDelta(newGraphicsObject->pos);
+    getCoordDelta(newGraphicsObject->dim);
+
+    return newGraphicsObject->dim;
 }
 
 bool ObjectHolder::checkObjects(event& ev) {
@@ -22,7 +29,7 @@ bool ObjectHolder::checkObjects(event& ev) {
     return false;
 }
 
-void ObjectHolder::draw() const {
+void ObjectHolder::drawObjects() const {
     for(int i = 0; i < 3; i++) {
         for(int j = 0; j < layeredObjects[i].size(); j++) {
             layeredObjects[i][j]->draw();

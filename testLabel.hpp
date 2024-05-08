@@ -5,7 +5,6 @@
 
 class TestLabel : public GraphicsObject {
 private:
-    Point size;
 public:
     TestLabel(Layer, Rect, ObjectHolder*);
     bool check(event&);

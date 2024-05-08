@@ -10,7 +10,7 @@ This class is designed to be the master class which controls all graphics events
 class Frame : public ObjectHolder { //I'd love to make this a singleton but I'm still not confident enough in C++ for that :(
 private:
     const Point size;
-    Point getCoordDelta(Point&) const final override;
+    void getCoordDelta(Rect&) const final override; //That's a lot of modifiers!
 public:
     Frame(Point size);
     void start();

@@ -1,13 +1,17 @@
 #include "testLabel.hpp"
+#include <iostream> //For debugging
 
 
-    TestLabel::TestLabel(Layer layer, Rect dimensions, ObjectHolder* holder) : GraphicsObject(layer,dimensions.p1,holder){
-        size = dimensions.p2;
+    TestLabel::TestLabel(Layer layer, Rect dim, ObjectHolder* holder) : GraphicsObject(layer,dim,holder) {
+        std::cout << "Adress of TestLabel in TestLabel() " << this << "\n";
+        std::cout << "Passed dim adress and its values in TestLabel() " << &dim << " " << dim.p1.x << " "  << dim.p2.x << "\n";
     }
+
+
 
     bool TestLabel::check(event& ev) {return false;}
     bool TestLabel::update(event& ev) {return false;}
     void TestLabel::drop() {}
     void TestLabel::draw() const {
-        gout << color(200,200,200) << move_to(pos.x, pos.y) << box(size.x,size.y);
+        gout << color(200,200,200) << move_to(dim.p1.x, dim.p1.y) << box(dim.p2.x,dim.p2.y);
     }

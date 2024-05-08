@@ -121,14 +121,15 @@
 1714396631 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2\label.hpp
 	"widget.hpp"
 
-1715113506 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\main.cpp
+1715188602 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\main.cpp
 	<iostream>
 	"helpers.hpp"
 	"frame.hpp"
+	"testLabel.hpp"
 
 1714999751 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\drawable.hpp
 
-1715113984 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\graphicsobject.hpp
+1715187397 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\graphicsobject.hpp
 	"graphics.hpp"
 	"helpers.hpp"
 	"objectHolder.hpp"
@@ -137,30 +138,45 @@
 	<string>
 	<vector>
 
-1715114913 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\helpers.hpp
+1715182664 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\helpers.hpp
 
-1715114002 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\frame.cpp
+1715182979 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\frame.cpp
 	"frame.hpp"
 	"graphics.hpp"
 
-1715114002 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\frame.hpp
+1715182967 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\frame.hpp
 	"graphicsObject.hpp"
 
-1715113984 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\objectholder.hpp
+1715188614 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\objectholder.hpp
 	<vector>
 	"graphics.hpp"
 	"helpers.hpp"
 
-1715065726 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\graphicsobject.cpp
+1715187892 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\graphicsobject.cpp
+	<iostream>
 	"graphicsObject.hpp"
 
-1715113211 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\objectholder.cpp
+1715187957 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\objectholder.cpp
+	<iostream>
 	"objectHolder.hpp"
 	"graphicsObject.hpp"
 
-1715114757 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\testlabel.cpp
+1715187397 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\testlabel.cpp
 	"testLabel.hpp"
+	<iostream>
 
-1715114929 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\testlabel.hpp
+1715187492 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\testlabel.hpp
 	"graphicsObject.hpp"
+
+1715183065 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\panel.cpp
+	"panel.hpp"
+
+1715182772 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\helpers.cpp
+	"helpers.hpp"
+
+1715183017 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\beadando2 másolata\panel.hpp
+	"graphics.hpp"
+	"helpers.hpp"
+	"graphicsObject.hpp"
+	"objectHolder.hpp"
 

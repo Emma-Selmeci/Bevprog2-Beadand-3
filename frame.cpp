@@ -17,9 +17,9 @@ void Frame::start() {
         if(!didWeTakeAnAction) {
             checkObjects(ev);
         }
-        draw();
+        drawObjects();
         gout << refresh;
     }
 }
 
-Point Frame::getCoordDelta(Point& p) const {return p;}
+void Frame::getCoordDelta(Rect& p) const {}

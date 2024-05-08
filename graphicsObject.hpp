@@ -11,9 +11,9 @@ using namespace genv;
 class GraphicsObject {
 protected:
     Layer layer;
-    Point pos; //These 2 members are not const, I might change them for some graphical effect
+    Rect dim; //These 2 members are not const, I might change them for some graphical effect
 public:
-    GraphicsObject(Layer, Point pos, ObjectHolder*);
+    GraphicsObject(Layer, Rect dim, ObjectHolder*);
     virtual bool check(event&) = 0;
     virtual bool update(event&) = 0;
     virtual void draw() const = 0;

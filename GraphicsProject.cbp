@@ -55,11 +55,15 @@
 		<Unit filename="frame.hpp" />
 		<Unit filename="graphicsObject.cpp" />
 		<Unit filename="graphicsObject.hpp" />
+		<Unit filename="helpers.cpp" />
 		<Unit filename="helpers.hpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="objectHolder.cpp" />
 		<Unit filename="objectHolder.hpp" />
+		<Unit filename="panel.cpp" />
 		<Unit filename="panel.hpp" />
+		<Unit filename="testLabel.cpp" />
+		<Unit filename="testLabel.hpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

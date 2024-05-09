@@ -3,8 +3,6 @@
 
 
     TestLabel::TestLabel(Layer layer, Rect dim, ObjectHolder* holder) : GraphicsObject(layer,dim,holder) {
-        std::cout << "Adress of TestLabel in TestLabel() " << this << "\n";
-        std::cout << "Passed dim adress and its values in TestLabel() " << &dim << " " << dim.p1.x << " "  << dim.p2.x << "\n";
     }
 
 

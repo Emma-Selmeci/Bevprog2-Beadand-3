@@ -6,9 +6,6 @@
 
 Rect& ObjectHolder::addObject(GraphicsObject* newGraphicsObject) {
 
-    std::cout << "Adress of TestLabel in addObject() " << newGraphicsObject << "\n";
-    std::cout << "Passed dim adress and its values in addObject() " << &newGraphicsObject->dim << " " << newGraphicsObject->dim.p1.x << " "  << newGraphicsObject->dim.p2.x << "\n";
-
     layeredObjects[newGraphicsObject->layer].push_back(newGraphicsObject);
 
     getCoordDelta(newGraphicsObject->dim);

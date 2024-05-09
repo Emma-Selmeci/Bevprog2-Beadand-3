@@ -57,6 +57,8 @@
 		<Unit filename="graphicsObject.hpp" />
 		<Unit filename="helpers.cpp" />
 		<Unit filename="helpers.hpp" />
+		<Unit filename="imageLabel.cpp" />
+		<Unit filename="imageLabel.hpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="objectHolder.cpp" />
 		<Unit filename="objectHolder.hpp" />

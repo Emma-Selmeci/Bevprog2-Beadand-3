@@ -196,26 +196,26 @@
 	<string>
 	<vector>
 
-1715182664 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\helpers.hpp
+1715199984 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\helpers.hpp
 
 1715188614 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\objectholder.hpp
 	<vector>
 	"graphics.hpp"
 	"helpers.hpp"
 
-1715188589 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\graphicsobject.cpp
+1715200399 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\graphicsobject.cpp
 	<iostream>
 	"graphicsObject.hpp"
 
 1715182772 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\helpers.cpp
 	"helpers.hpp"
 
-1715188602 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\objectholder.cpp
+1715199887 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\objectholder.cpp
 	<iostream>
 	"objectHolder.hpp"
 	"graphicsObject.hpp"
 
-1715199388 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\panel.cpp
+1715199862 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\panel.cpp
 	<iostream>
 	"panel.hpp"
 
@@ -225,7 +225,7 @@
 	"graphicsObject.hpp"
 	"objectHolder.hpp"
 
-1715187397 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\testlabel.cpp
+1715199886 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\testlabel.cpp
 	"testLabel.hpp"
 	<iostream>
 
@@ -238,4 +238,16 @@
 	"frame.hpp"
 	"testLabel.hpp"
 	"panel.hpp"
+
+1715283903 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\imagelabel.cpp
+	<iostream>
+	<fstream>
+	"imageLabel.hpp"
+
+1715283964 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\imagelabel.hpp
+	<vector>
+	"graphics.hpp"
+	"graphicsObject.hpp"
+	"helpers.hpp"
+	"objectHolder.hpp"
 

@@ -13,6 +13,12 @@ Rect& ObjectHolder::addObject(GraphicsObject* newGraphicsObject) {
     return newGraphicsObject->dim;
 }
 
+Rect& ObjectHolder::scaleObject(GraphicsObject* newGraphicsObject) {
+    getCoordDelta(newGraphicsObject->dim);
+
+    return newGraphicsObject->dim;
+}
+
 bool ObjectHolder::checkObjects(event& ev) {
     for(int i = 0; i < 3; i++) {
         for(int j = 0; j < layeredObjects[i].size(); j++) {

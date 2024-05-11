@@ -24,6 +24,7 @@ protected:
     virtual void drawObjects() const;
 public:
     Rect& addObject(GraphicsObject*); //Adds the object to this holder and returns the coordinates
+    Rect& scaleObject(GraphicsObject*);
 };
 
 #endif // OBJECTHOLDER

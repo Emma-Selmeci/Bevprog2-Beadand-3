@@ -8,14 +8,15 @@
 #include "graphicsObject.hpp"
 #include "helpers.hpp"
 #include "objectHolder.hpp"
+#include "imageLoader.hpp"
 
 using namespace genv;
 
 class ImageLabel : public GraphicsObject {
-    std::vector<short int> data;
-    mutable canvas c; //We're using mutable. Fun!
+    mutable canvas* c; //We're using mutable. Fun!
 public:
     ImageLabel(std::string path, Layer layer, Rect dim, ObjectHolder* holder);
+    ImageLabel(ImageLoader*, Layer layer, Rect dim, ObjectHolder* holder); //Assuming the canvas is set to transparent and dim already contains width and height
     //This class will most likely never be checked, updated or dropped
     bool check(event&);
     bool update(event&);

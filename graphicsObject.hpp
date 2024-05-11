@@ -14,6 +14,7 @@ protected:
     Rect dim; //These 2 members are not const, I might change them for some graphical effect
 public:
     GraphicsObject(Layer, Rect dim, ObjectHolder*);
+    GraphicsObject(Rect dim, ObjectHolder*); //For when we don't want to add it to the automatic thingie
     virtual bool check(event&) = 0;
     virtual bool update(event&) = 0;
     virtual void draw() const = 0;

@@ -180,14 +180,15 @@
 	"graphicsObject.hpp"
 	"objectHolder.hpp"
 
-1715182979 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\frame.cpp
+1715441964 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\frame.cpp
 	"frame.hpp"
 	"graphics.hpp"
+	"mainmenu/mainMenuPanel.hpp"
 
-1715182967 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\frame.hpp
+1715441842 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\frame.hpp
 	"graphicsObject.hpp"
 
-1715199542 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\graphicsobject.hpp
+1715441319 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\graphicsobject.hpp
 	"graphics.hpp"
 	"helpers.hpp"
 	"objectHolder.hpp"
@@ -198,28 +199,28 @@
 
 1715199984 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\helpers.hpp
 
-1715188614 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\objectholder.hpp
+1715441405 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\objectholder.hpp
 	<vector>
 	"graphics.hpp"
 	"helpers.hpp"
 
-1715200399 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\graphicsobject.cpp
+1715441378 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\graphicsobject.cpp
 	<iostream>
 	"graphicsObject.hpp"
 
 1715182772 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\helpers.cpp
 	"helpers.hpp"
 
-1715199887 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\objectholder.cpp
+1715441460 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\objectholder.cpp
 	<iostream>
 	"objectHolder.hpp"
 	"graphicsObject.hpp"
 
-1715199862 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\panel.cpp
+1715441378 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\panel.cpp
 	<iostream>
 	"panel.hpp"
 
-1715183017 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\panel.hpp
+1715441479 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\panel.hpp
 	"graphics.hpp"
 	"helpers.hpp"
 	"graphicsObject.hpp"
@@ -232,22 +233,52 @@
 1715187492 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\testlabel.hpp
 	"graphicsObject.hpp"
 
-1715199462 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\main.cpp
+1715441999 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\main.cpp
 	<iostream>
 	"helpers.hpp"
 	"frame.hpp"
 	"testLabel.hpp"
 	"panel.hpp"
+	"imageLabel.hpp"
+	"imageLoader.hpp"
 
-1715283903 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\imagelabel.cpp
+1715435748 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\imagelabel.cpp
 	<iostream>
 	<fstream>
 	"imageLabel.hpp"
 
-1715283964 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\imagelabel.hpp
+1715435701 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\imagelabel.hpp
 	<vector>
 	"graphics.hpp"
 	"graphicsObject.hpp"
 	"helpers.hpp"
 	"objectHolder.hpp"
+	"imageLoader.hpp"
+
+1715346910 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\mainmenubutton.cpp
+	"panel.hpp"
+	"helpers.hpp"
+	"objectHolder.hpp"
+
+1715347154 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\mainmenu\mainmenubutton.cpp
+	"..\panel.hpp"
+	"..\helpers.hpp"
+	"..\objectHolder.hpp"
+
+1715435755 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\imageloader.cpp
+	"fstream"
+	"iostream"
+	"imageLoader.hpp"
+
+1715435693 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\imageloader.hpp
+	"graphics.hpp"
+	"helpers.hpp"
+
+1715442085 source:c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\mainmenu\mainmenupanel.cpp
+	"mainMenuPanel.hpp"
+	"..\helpers.hpp"
+
+1715441697 c:\users\selmeci emma\desktop\mérnökinformatika\2. félév\bevprog\barbigeddon\mainmenu\mainmenupanel.hpp
+	"..\panel.hpp"
+	"..\imageLabel.hpp"
 

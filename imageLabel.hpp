@@ -10,6 +10,8 @@
 #include "objectHolder.hpp"
 #include "imageLoader.hpp"
 
+class MainMenuPanel;
+
 using namespace genv;
 
 class ImageLabel : public GraphicsObject {
@@ -22,6 +24,8 @@ public:
     bool update(event&);
     virtual void draw() const;
     virtual void drop();
+    void setTransparent(bool transparent);
+    friend class MainMenuPanel;
 };
 
 #endif // IMAGELABEL

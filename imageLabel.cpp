@@ -57,3 +57,7 @@ ImageLabel::ImageLabel(std::string path, Layer layer, Rect dim, ObjectHolder* ho
 void ImageLabel::draw() const {
     gout << stamp(*c,dim.p1.x,dim.p1.y);
 }
+
+void ImageLabel::setTransparent(bool transparent) {
+    c->transparent(transparent);
+}

@@ -59,9 +59,12 @@
 		<Unit filename="helpers.hpp" />
 		<Unit filename="imageLabel.cpp" />
 		<Unit filename="imageLabel.hpp" />
+		<Unit filename="imageLoader.cpp" />
+		<Unit filename="imageLoader.hpp" />
 		<Unit filename="main.cpp" />
-		<Unit filename="mainMenuButton.cpp" />
-		<Unit filename="mainmenu/mainMenuButton.cpp" />
+		<Unit filename="mainmenu/mainMenuButton.hpp" />
+		<Unit filename="mainmenu/mainMenuPanel.cpp" />
+		<Unit filename="mainmenu/mainMenuPanel.hpp" />
 		<Unit filename="objectHolder.cpp" />
 		<Unit filename="objectHolder.hpp" />
 		<Unit filename="panel.cpp" />

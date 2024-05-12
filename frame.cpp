@@ -1,3 +1,5 @@
+#include <iostream> //temp
+
 #include "frame.hpp"
 
 #include "graphics.hpp"
@@ -13,7 +15,8 @@ void Frame::start() {
     gin.timer(1000/60);
 
     //Temp
-    currentMenu = new MainMenuPanel(this);
+    MainMenuPanel* m = new MainMenuPanel(this);
+    layeredObjects[0].push_back(m);
 
     while(gin >> ev) {
         gout << move_to(0,0) << color(0,0,0) << box_to(size.x,size.y);
@@ -27,9 +30,11 @@ void Frame::start() {
     }
 }
 
+/*
 void Frame::drawObjects() const {
     currentMenu->draw();
     ObjectHolder::drawObjects();
 }
+*/
 
 void Frame::getCoordDelta(Rect& p) const {}

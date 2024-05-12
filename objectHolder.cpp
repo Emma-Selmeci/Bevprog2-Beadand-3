@@ -10,6 +10,7 @@ Rect& ObjectHolder::addObject(GraphicsObject* newGraphicsObject) {
 
     getCoordDelta(newGraphicsObject->dim);
 
+
     return newGraphicsObject->dim;
 }
 

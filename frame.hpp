@@ -12,7 +12,7 @@ private:
     const Point size;
     GraphicsObject* currentMenu;
     void getCoordDelta(Rect&) const final override; //That's a lot of modifiers!
-    void drawObjects() const override;
+    //void drawObjects() const override;
 public:
     Frame(Point size);
     void start();

@@ -9,6 +9,6 @@
 
 int main() {
     Frame f({1000,600});
-    new ImageLabel("1pb.kep",Layer::TOP,Rect(0,0,0,0),&f);
+    //new ImageLabel("1pb.kep",Layer::TOP,Rect(0,0,0,0),&f);
     f.start();
 }
